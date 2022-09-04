@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap');
+
+.bg{
+    background: rgba(0,0,0,0.5);
+    width: 1365px;
+    min-height: 50px;
+    display: flex;
+}
+
+.bg a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+#heading{
+    font-family: 'Baloo Bhai 2', cursive;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 23px;
+}
+
+a:hover{
+    color: rgba(255,255,255,0.2);
+}
+
+.logo{
+    background: rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+
+body{
+    background:url('https://cdn.pixabay.com/photo/2018/02/05/14/44/taj-mahal-3132348_960_720.jpg');
+    background-size: 370px 500px;
+    /* margin-right: -20px; */
+    background-size: 1370px auto ;
+    background-color: rgba(0,0,0,0.1);
+    /* animation: Bg 10s linear infinite; */
+    /* display: flex; */
+}
+
+h1{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    margin-top: 500px;
+    width:350px;
+    text-align:center;
+    margin:auto;
+    display: inline;
+}
+
+h2{
+    /* display: flex; */
+
+    margin-top: 500px;
+    width:350px;
+    text-align:center;
+    /* text-justify: kashida; */
+    margin:auto;
+    display: inline;
+    /* justify-content: center; */
+    /* justify-items: center; */
+}
+
+span::after{
+    content: 'Taj Mahal';
+    animation: place 20s linear infinite;
+    font-size: 2.5rem;
+    color: rgba(14, 14, 14, 0.795);
+    font-weight: 500;
+}
+
+.s1::after{
+    animation: eat 20s linear infinite;
+}
+
+
+h3{
+
+    margin-top: 50px;
+    width:900px;
+    text-align:center;
+    margin:auto;
+    /* display: inline; */
+    /* justify-content: center; */
+    /* align-content: center; */
+}
+
+@keyframes place {
+    0%{
+        content: "Taj Mahal";
+        color: black;
+    }
+    10%{
+        content: 'Qutub Minar';
+        color: blueviolet;
+    }
+    20%{
+        content: 'Char Minar';
+        color: blue;
+    }
+    30%{
+        content: 'Shikara Ride';
+        color: cyan;
+    }
+    40%{
+        content: "India Gate";
+        color: darkgreen;
+    }
+    50%{
+        content: "Red Fort";
+        color: green;
+    }
+    60%{
+        content: "Howrah Bridge";
+        color: lawngreen;
+    }
+    70%{
+        content: "Victoria Memorial";
+        color: yellow;
+    }
+}
+
+@keyframes eat {
+    0%{
+        content: "Pav Bhaji";
+    }
+    10%{
+        content: 'Bhel Puri';
+    }
+    20%{
+        content: 'Chhole Bhature';
+    }
+    30%{
+        content: 'Fish Curry';
+    }
+    40%{
+        content: "Litti Chowkha";
+    }
+    50%{
+        content: "Momos";
+    }
+    60%{
+        content: "Sev Puri";
+    }
+    70%{
+        content: "Vada Pav";
+    }
+}
+
+.h{
+    /* margin-top: 225px; */
+    width: 600px;
+    margin: 200px 0px;
+    margin-left:450px;
+    color: black;
+    display: inline-block;
+}
+
+
+.link{
+    display: inline;
+    margin-left: 650px;
+    margin-top: 20px;
+    font-size: 20px;
+    align-items: center;
+    align-content: center;
+}
+.btn1{
+    margin-top: 110px;
+    display: block;
+}
